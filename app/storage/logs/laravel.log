@@ -1,0 +1,32 @@
+[2014-07-19 20:29:03] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /Users/VV/Documents/Development/gHack/bootstrap/compiled.php:5465
+Stack trace:
+#0 /Users/VV/Documents/Development/gHack/bootstrap/compiled.php(4794): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 /Users/VV/Documents/Development/gHack/bootstrap/compiled.php(4782): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /Users/VV/Documents/Development/gHack/bootstrap/compiled.php(4774): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 /Users/VV/Documents/Development/gHack/bootstrap/compiled.php(706): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 /Users/VV/Documents/Development/gHack/bootstrap/compiled.php(687): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 /Users/VV/Documents/Development/gHack/bootstrap/compiled.php(7440): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 /Users/VV/Documents/Development/gHack/bootstrap/compiled.php(8047): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 /Users/VV/Documents/Development/gHack/bootstrap/compiled.php(7994): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /Users/VV/Documents/Development/gHack/bootstrap/compiled.php(10615): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /Users/VV/Documents/Development/gHack/bootstrap/compiled.php(648): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 /Users/VV/Documents/Development/gHack/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-07-19 21:04:49] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected ')'' in /Users/VV/Documents/Development/gHack/app/views/dataCollection.php:78
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-07-19 22:13:33] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /Users/VV/Documents/Development/gHack/bootstrap/compiled.php:5465
+Stack trace:
+#0 /Users/VV/Documents/Development/gHack/bootstrap/compiled.php(4794): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 /Users/VV/Documents/Development/gHack/bootstrap/compiled.php(4782): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /Users/VV/Documents/Development/gHack/bootstrap/compiled.php(4774): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 /Users/VV/Documents/Development/gHack/bootstrap/compiled.php(706): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 /Users/VV/Documents/Development/gHack/bootstrap/compiled.php(687): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 /Users/VV/Documents/Development/gHack/bootstrap/compiled.php(7440): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 /Users/VV/Documents/Development/gHack/bootstrap/compiled.php(8047): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 /Users/VV/Documents/Development/gHack/bootstrap/compiled.php(7994): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /Users/VV/Documents/Development/gHack/bootstrap/compiled.php(10615): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /Users/VV/Documents/Development/gHack/bootstrap/compiled.php(648): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 /Users/VV/Documents/Development/gHack/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
