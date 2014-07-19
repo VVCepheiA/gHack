@@ -20,3 +20,9 @@ Route::get('users', function()
 {
     return 'Users!';
 });
+
+Route::get('data', function()
+{
+	return View::make('dataCollection');
+});
+
