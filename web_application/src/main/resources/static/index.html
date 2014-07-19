@@ -1,0 +1,27 @@
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script>
+		function sendData(){
+			$.ajax({
+			  type: "POST",
+			  url: "/sendMessage",
+			  data: JSON.stringify({
+				  userName:$("#username").val(),
+				  subject: $("#subject").val(),
+				  message: $("#message").val(),
+				  location: $("#location").val(),
+				  sendDate: $("#sendDate").val(),
+				  }),
+			  contentType: "application/json"
+			});
+		}
+	</script>
+</head>
+<body>
+	Username: <input type="text" id="username"><br>
+	Subject: <input type="text" id="subject"><br>
+	Message: <input type="text" id="message"><br>
+	Location: <input type="text" id="location"><br>
+	Send Date: <input type="text" id="sendDate"><br>
+	<button onclick=sendData()>Send Data</button>
+</body>
